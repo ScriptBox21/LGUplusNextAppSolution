@@ -31,5 +31,10 @@ namespace LGUplusWindowsFormsApp
             this.textBox2.Text = user.UserEmail;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("저장버튼이 클릭되었습니다.");
+        }
     }
 }
